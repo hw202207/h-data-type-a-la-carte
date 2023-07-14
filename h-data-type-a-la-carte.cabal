@@ -19,6 +19,7 @@ common warnings
 library
     import:           warnings
     exposed-modules:  Expr
+                      ExprFix
     -- other-modules:
     -- other-extensions:
     build-depends:    base ^>=4.17.1.0

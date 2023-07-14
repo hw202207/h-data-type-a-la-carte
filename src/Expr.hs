@@ -1,6 +1,5 @@
 module Expr where
 
-
 data Expr = Val Int | Add Expr Expr
 
 eval :: Expr -> Int
